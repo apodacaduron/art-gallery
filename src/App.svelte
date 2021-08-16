@@ -4,9 +4,9 @@
   import Nav from "./components/General/Nav.svelte";
 </script>
 
-<Router>
-  <Nav />
-  <template>
+<template>
+  <Router>
+    <Nav />
     <Route path="/" component={Home} />
-  </template>
-</Router>
+  </Router>
+</template>
