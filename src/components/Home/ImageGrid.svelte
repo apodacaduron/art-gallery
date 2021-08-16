@@ -38,7 +38,7 @@
 
 <style lang="scss">
   .image-grid {
-    @apply w-full max-w-screen-xl mx-auto my-14 px-6;
+    @apply w-full max-w-screen-xl mx-auto my-14 px-6 box-border;
     column-count: 4;
 
     .loading {

@@ -42,4 +42,14 @@
       @apply absolute top-0 mix-blend-multiply;
     }
   }
+
+  @media only screen and (max-width: 800px) {
+    .header {
+      &__container {
+        &__title {
+          @apply text-2xl leading-none;
+        }
+      }
+    }
+  }
 </style>

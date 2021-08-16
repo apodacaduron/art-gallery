@@ -1,5 +1,5 @@
 /node_modules/
-/public/build/
+# /public/build/
 yarn.lock
 
 .DS_Store
